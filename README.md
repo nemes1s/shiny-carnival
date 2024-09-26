@@ -56,8 +56,8 @@ This repository contains two Go applications designed to work together:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/yourrepository.git
-   cd yourrepository/cli
+   git clone https://github.com/nemes1s/shiny-carnival.git
+   cd shiny-carnival/cli
    ```
 
 2. **Build the CLI Application**
@@ -154,8 +154,8 @@ CMD ["-file=data.csv"]
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/yourrepository.git
-   cd yourrepository/microservice
+   git clone https://github.com/nemes1s/shiny-carnival.git
+   cd shiny-carnival/service
    ```
 
 2. **Build the Microservice Application**
@@ -287,7 +287,7 @@ spec:
     spec:
       containers:
       - name: microservice-container
-        image: yourusername/microservice-app:latest
+        image: nemes1s/microservice-app:latest
         ports:
         - containerPort: 8081
         env:
@@ -325,9 +325,6 @@ By following the installation and usage instructions, and considering the possib
 For any questions, issues, or contributions, feel free to open an issue or submit a pull request.
 
 ---
-
-**Note**: Replace `yourusername` and `yourrepository` with your actual GitHub username and repository name. Adjust the Docker images, environment variables, and configurations according to your specific setup.
-
 
 ## Future work
 
